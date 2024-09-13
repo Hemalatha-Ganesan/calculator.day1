@@ -1,0 +1,83 @@
+body {
+    background-color: hwb(202 11% 18% / 0.46);
+    margin: 0%;
+    flex-wrap: wrap;
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Times New Roman', Times, serif;
+   box-sizing: border-box;
+}
+h1{
+    margin: 4%;
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+    text-align: left;
+    font-size: 50px;
+    color: rgb(225, 12, 225);
+    font-style: italic;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  
+
+.container{
+    width: 100%;
+    height: 60vh;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Calculator{
+    background: #42378a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+.Calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #2eee19;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: rgba(225,225,225,0.1)
+}
+
+
+form input.operator{
+    color: #2eee19;
+
+}
+  
+.button:hover{
+    background-color: darkmagenta;
+  }
